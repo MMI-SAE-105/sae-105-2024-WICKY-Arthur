@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : WICKY
+- PRÉNOM : Arthur
+- GROUPE : C2
+- URL du site : https://verdant-starship-e57c92.netlify.app
+- URL FIGMA : https://www.figma.com/design/ktmtOAy5mxKyEDa7PcKqKt/Arthur-WICKY_SAE-103_18-OCT-2024?node-id=5-29&t=SEru3FzIX85rNsQR-1
 
 ## Sujet
 
