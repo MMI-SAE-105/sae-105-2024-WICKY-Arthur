@@ -12,106 +12,90 @@
 <body class="page">
     <header class="header">
         <a class="header__logo-link" href="/">
-            <img class="header__logo" 
-            src="/assets/icons/logo.svg" 
-            alt="Logo Flash Cinéma 25">
+            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
         </a>
-
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="programmation.html">Programmation</a></li>
+                <li class="menu__item"><a class="menu__link" href="invites.html">Invités</a></li>
+                <li class="menu__item"><a class="menu__link" href="infos.html">Infos Pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="about.html">À propos</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <button
-        class="header__menu-btn menu-btn"
-        aria-label="menu"
-        aria-expanded="false"
-        aria-controls="mainNav"
-        >
-        <span class="menu-btn__bar" aria-hidden="true"></span>
-    </button>
 
-    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-        <ul>
-            <li><a href="programmation.html">Programmation</a></li>
-            <li><a href="invites.html">Invités</a></li>
-            <li><a href="infos.html">Infos Pratiques</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <div>
-            <img src="/assets/img/affiche.webp" alt="Affiche du festival Flash Cinéma 25">
-            <button
-                class="hero__billetterie-btn"
-                aria-label="Billetterie"
-                aria-expanded="false"
-                aria-controls="billetterie"
-                >
+    <main class="main">
+        <div class="hero">
+            <img class="hero__image" src="/assets/img/affiche.webp" alt="Affiche du festival Flash Cinéma 25">
+            <button class="hero__billetterie-btn" aria-label="Billetterie" aria-expanded="false" aria-controls="billetterie">
                 Billetterie
             </button>
         </div>
-        <section>
-            <h1>Découvrez Flash Cinéma 25 !</h1>
-            <p>Un festival avec des films si courts que vous aurez encoer le temps pour l'apéro, du fromage et des montagnes !</p>
+        <section class="intro">
+            <h1 class="intro__title">Découvrez Flash Cinéma 25 !</h1>
+            <p class="intro__text">Un festival avec des films si courts que vous aurez encore le temps pour l'apéro, du fromage et des montagnes !</p>
         </section>
-        <article>
-            <h2>Programmation</h2>
-            <img src="/assets/img/programmation.webp" alt="Projection en plein air">
-            <p>Retrouvez la programmation complète du festival Flash Cinéma 25.</p>
-            <a href="programmation.html">Programmation</a>
+        <article class="article">
+            <h2 class="article__title">Programmation</h2>
+            <img class="article__image" src="/assets/img/programmation.webp" alt="Projection en plein air">
+            <p class="article__text">Retrouvez la programmation complète du festival Flash Cinéma 25.</p>
+            <a class="article__link" href="programmation.html">Programmation</a>
         </article>
-        <article>
-            <h2>Invités</h2>
-            <img src="/assets/img/invites.webp" alt="Invités du festival">
-            <p>Retrouvez les invités du festival Flash Cinéma 25.</p>
-            <a href="invites.html">Invités</a>
+        <article class="article">
+            <h2 class="article__title">Invités</h2>
+            <img class="article__image" src="/assets/img/invites.webp" alt="Invités du festival">
+            <p class="article__text">Retrouvez les invités du festival Flash Cinéma 25.</p>
+            <a class="article__link" href="invites.html">Invités</a>
         </article>
-        <article>
-            <h2>Infos Pratiques</h2>
-            <img src="/assets/img/carnet.webp" alt="Informations pratiques">
-            <p>Retrouvez toutes les informations pratiques pour profiter du festival Flash Cinéma 25.</p>
-            <a href="infos.html">Infos Pratiques</a>
+        <article class="article">
+            <h2 class="article__title">Infos Pratiques</h2>
+            <img class="article__image" src="/assets/img/carnet.webp" alt="Informations pratiques">
+            <p class="article__text">Retrouvez toutes les informations pratiques pour profiter du festival Flash Cinéma 25.</p>
+            <a class="article__link" href="infos.html">Infos Pratiques</a>
         </article>
-        <article>
-            <h2>À propos</h2>
-            <img src="" alt="À propos du festival">
-            <p>Retrouvez toutes les informations sur le festival Flash Cinéma 25.</p>
-            <a href="about.html">À propos</a>
+        <article class="article">
+            <h2 class="article__title">À propos</h2>
+            <img class="article__image" src="" alt="À propos du festival">
+            <p class="article__text">Retrouvez toutes les informations sur le festival Flash Cinéma 25.</p>
+            <a class="article__link" href="about.html">À propos</a>
         </article>
-        <article>
-            <h2>Contact</h2>
-            <img src="/assets/img/contact.webp" alt="Contactez-nous">
-            <p>Retrouvez toutes les informations pour contacter l'équipe du festival Flash Cinéma 25.</p>
-            <a href="contact.html">Contact</a>
+        <article class="article">
+            <h2 class="article__title">Contact</h2>
+            <img class="article__image" src="/assets/img/contact.webp" alt="Contactez-nous">
+            <p class="article__text">Retrouvez toutes les informations pour contacter l'équipe du festival Flash Cinéma 25.</p>
+            <a class="article__link" href="contact.html">Contact</a>
         </article>
-        <section>
-            <h2>Nos Partenaires</h2>
-            <p>Nos partenaires, occupent un rôle essentiel et nous tenons à les remercier chaleureusement pour leur soutien
-            indéfectible et précieux qui contribue à la réussite et au rayonnement de chaque manifestation.</p>
-            <ul>
-                <li><a href="https://www.ornans.fr"><img src="/assets/img/ornans.webp" alt="Logo de la ville d'oranns"></a></li>
-                <li><a href="https://www.cnc.fr"><img src="/assets/img/cnc.webp" alt="Logo du CNC"></a></li>
-                <li><a href="https://www.bourgognefranchecomte.fr"><img src="/assets/img/logo_bfc.webp" alt="Logo de la région Bourgonge Franche-Comté"></a></li>
+        <section class="partners">
+            <h2 class="partners__title">Nos Partenaires</h2>
+            <p class="partners__text">Nos partenaires, occupent un rôle essentiel et nous tenons à les remercier chaleureusement pour leur soutien indéfectible et précieux qui contribue à la réussite et au rayonnement de chaque manifestation.</p>
+            <ul class="partners__list">
+                <li class="partners__item"><a class="partners__link" href="https://www.ornans.fr"><img class="partners__logo" src="/assets/img/ornans.webp" alt="Logo de la ville d'Ornans"></a></li>
+                <li class="partners__item"><a class="partners__link" href="https://www.cnc.fr"><img class="partners__logo" src="/assets/img/cnc.webp" alt="Logo du CNC"></a></li>
+                <li class="partners__item"><a class="partners__link" href="https://www.bourgognefranchecomte.fr"><img class="partners__logo" src="/assets/img/logo_bfc.webp" alt="Logo de la région Bourgogne Franche-Comté"></a></li>
             </ul>
-        <footer>
-            <a href="/">
-                <img src="/assets/icons/logo.svg" 
-                alt="Logo Flash Cinéma 25">
+        </section>
+        <footer class="footer">
+            <a class="footer__logo-link" href="/">
+                <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
             </a>
-            <h3>Flash Cinéma 25</h3>
-            <p>1ère édition du 8 au 10 Août 2025</p>
-            <h4>Menu</h4>
-            <p>Mentions Légales <br> Politiques de Confidentialité <br> Crédits</p>
-            <h4>Contact</h4>
-            <p>contact@flashcinema25.com</p>
-            <h4>Nous Suivre</h4>
-            <ul>
-                <li><a href=""><img src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
-                <li><a href=""><img src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
-                <li><a href=""><img src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
-                <li><a href=""><img src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
+            <h3 class="footer__title">Flash Cinéma 25</h3>
+            <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+            <h4 class="footer__menu-title">Menu</h4>
+            <p class="footer__menu-text">Mentions Légales <br> Politiques de Confidentialité <br> Crédits</p>
+            <h4 class="footer__contact-title">Contact</h4>
+            <p class="footer__contact-text">contact@flashcinema25.com</p>
+            <h4 class="footer__social-title">Nous Suivre</h4>
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
             </ul>
         </footer>
-        </section>
     </main>
 </body>
 
