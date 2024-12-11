@@ -8,6 +8,22 @@
     <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <a class="header__logo-link" href="/">
+            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
+        </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="programmation.html">Programmation</a></li>
+                <li class="menu__item"><a class="menu__link" href="invites.html">Invités</a></li>
+                <li class="menu__item"><a class="menu__link" href="infos.html">Infos Pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="about.html">À propos</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
