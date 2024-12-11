@@ -1,0 +1,28 @@
+:root{
+    /* Colors variables */
+        /* main colors */
+        --indigo: #132843;
+        --jaune: #f8ed31;
+        --orange: #faa62a;
+        --red: #f03e24;
+
+        /* greys */
+        --blanc: #fbfbfb;
+        --gris-clar: #b8b4b4;
+        --gris-foncé: #61605e;
+        --noir: #181a19;
+
+    /* Text-size styles */
+        /* base size: body-1 (18px) */
+        --heading-1: 2rem;
+        --heading-2: 1.22rem;
+        --heading-3: 1.11rem;
+        --body-1: 1rem;
+        --body-2: 0.83rem;
+        --small-text: 0.72rem;
+        --button: 1.22rem;
+        --small-text-uppercase: 0.72rem;
+
+    /* Font-family styles */
+        --font-body: 
+}   
