@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invités - Flash Cinéma 25</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
 </head>
 
@@ -27,94 +27,92 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-content">
         <section class="hero">
-            <h1>Nos Invités</h1>
-            <img src="" alt="">
+            <h1 class="hero__title">Nos Invités</h1>
+            <img class="hero__image" src="" alt="">
         </section>
-        <div>
-            <section>
-                <h3>Découvrez les personnalités qui font briller le festival cette année !</h3>
-                <p>Retrouvez la liste complète des réalisateurs, acteurs, membres du jury, et autres talents qui vous
-                    partageront leur
-                    passion pour le 7ᵉ art. Chaque invité est présenté avec un aperçu de son parcours et ses
-                    contributions
-                    au festival.
-                    Cliquez sur leur profil pour en savoir plus !</p>
-            </section>
-            <section>
-                <ul>
-                    <li>
-                        <a href="fiche_johnkhars.html">
-                            <img src="assets/img/john_khars.webp" alt="">
-                            </img>
-                            </a>
-                                <h4>John Khars</h4>
-                                <p>Réalisateur et animateur</p>
-                    </li>
-                    <li>
-                        <a href="fiche_agnesjaoui.html">
-                            <img src="assets/img/agnes_jaoui.webp" alt="">
-                            </img>
+        <section class="content">
+            <div class="intro">
+                <h3 class="intro__title">Découvrez les personnalités qui font briller le festival cette année !</h3>
+                <p class="intro__text">Retrouvez la liste complète des réalisateurs, acteurs, membres du jury, et autres
+                    talents qui vous
+                    partageront leur passion pour le 7ᵉ art. Chaque invité est présenté avec un aperçu de son parcours
+                    et
+                    ses
+                    contributions au festival. Cliquez sur leur profil pour en savoir plus !</p>
+            </div>
+            <div class="guests">
+                <ul class="guests__list">
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_johnkhars.html">
+                            <img class="guests__image" src="assets/img/john_khars.webp" alt="">
                         </a>
-                        <h4>Agnès Jaoui</h4>
-                        <p>Actrice et scénariste</p>
+                        <h3 class="guests__name">John Khars</h3>
+                        <p class="guests__role">Réalisateur et animateur</p>
                     </li>
-                    <li>
-                        <a href="fiche_jean-pierrejeunet.html">
-                            <img src="assets/img/jean-pierre_jeunet.webp" alt="">
-                            </img>
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_agnesjaoui.html">
+                            <img class="guests__image" src="assets/img/agnes_jaoui.webp" alt="">
                         </a>
-                        <h4>Jean-Pierre Jeunet</h4>
-                        <p>Réalisateur et scénariste</p>
+                        <h3 class="guests__name">Agnès Jaoui</h3>
+                        <p class="guests__role">Actrice et scénariste</p>
                     </li>
-                    <li>
-                        <a href="fiche_marianachenillo.html">
-                            <img src="assets/img/mariana_chenillo.webp" alt="">
-                            </img>
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_jean-pierrejeunet.html">
+                            <img class="guests__image" src="assets/img/jean-pierre_jeunet.webp" alt="">
                         </a>
-                        <h4>Marianna Chenillo</h4>
-                        <p>Réalisatrice et scénariste</p>
+                        <h3 class="guests__name">Jean-Pierre Jeunet</h3>
+                        <p class="guests__role">Réalisateur et scénariste</p>
                     </li>
-                    <li>
-                        <a href="fiche_michelocelot.html">
-                            <img src="assets/img/michel_ocelot.webp" alt="">
-                            </img>
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_marianachenillo.html">
+                            <img class="guests__image" src="assets/img/mariana_chenillo.webp" alt="">
                         </a>
-                        <h4>Michel Ocelot</h4>
-                        <p>Réalisateur</p>
+                        <h3 class="guests__name">Marianna Chenillo</h3>
+                        <p class="guests__role">Réalisatrice et scénariste</p>
                     </li>
-                    <li>
-                        <a href="fiche_michaelapavlatova.html">
-                            <img src="assets/img/michaela_pavlatova.webp" alt="">
-                            </img>
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_michelocelot.html">
+                            <img class="guests__image" src="assets/img/michel_ocelot.webp" alt="">
                         </a>
-                        <h4>Michaela Pavlátová</h4>
-                        <p>Réalisatrice, scénariste et actrice</p>
+                        <h3 class="guests__name">Michel Ocelot</h3>
+                        <p class="guests__role">Réalisateur</p>
+                    </li>
+                    <li class="guests__item">
+                        <a class="guests__link" href="fiche_michaelapavlatova.html">
+                            <img class="guests__image" src="assets/img/michaela_pavlatova.webp" alt="">
+                        </a>
+                        <h3 class="guests__name">Michaela Pavlátová</h3>
+                        <p class="guests__role">Réalisatrice, scénariste et actrice</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
         <footer class="footer">
-            <a class="footer__logo-link" href="/">
-                <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
-            </a>
-            <h3 class="footer__title">Flash Cinéma 25</h3>
-            <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+            <div class="footer__container">
+                <a class="footer__logo-link" href="/">
+                    <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
+                </a>
+                <div class="footer__info">
+                    <h3 class="footer__title">Flash Cinéma 25</h3>
+                    <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+                </div>
+            </div>
             <h4 class="footer__menu-title">Menu</h4>
             <p class="footer__menu-text">Mentions Légales <br> Politiques de Confidentialité <br> Crédits</p>
             <h4 class="footer__contact-title">Contact</h4>
             <p class="footer__contact-text">contact@flashcinema25.com</p>
             <h4 class="footer__social-title">Nous Suivre</h4>
-            <ul class="footer__social-list"></ul>
-            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                        src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
-            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                        src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
-            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                        src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
-            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                        src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                            src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                            src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                            src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                            src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
             </ul>
         </footer>
     </main>

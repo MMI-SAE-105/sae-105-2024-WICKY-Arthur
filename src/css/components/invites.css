@@ -1,0 +1,21 @@
+.guests__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+}
+.guests__item{
+    list-style: none;
+}
+.guests__name{
+    margin:0;
+    font-weight: 550;
+}
+
+.guests__role{
+    margin-top:0;
+    margin-bottom: 2rem;
+    font-size: 13px;
+    font-style: lighter;
+}

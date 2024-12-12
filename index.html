@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flash Cinéma 25</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body class="page">
     <header class="header">
-        <a class="header__logo-link" href="/">
-            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Flash Cinéma 25"></img>
         </a>
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
@@ -37,65 +37,74 @@
             </button>
         </div>
         <section class="intro">
-            <h1 class="intro__title">Découvrez Flash Cinéma 25 !</h1>
+            <h2 class="intro__title">Découvrez Flash Cinéma 25 !</h2>
             <p class="intro__text">Un festival avec des films si courts que vous aurez encore le temps pour l'apéro, du
                 fromage et des montagnes !</p>
+
+            <article class="article">
+                <h3 class="article__title">Programmation</h3>
+                <img class="article__image" src="/assets/img/programmation.webp" alt="Projection en plein air">
+                <p class="article__text">Retrouvez la programmation complète du festival Flash Cinéma 25.</p>
+                <a class="article__link" href="programmation.html">Programmation</a>
+            </article>
+            <article class="article">
+                <h3 class="article__title">Invités</h3>
+                <img class="article__image" src="/assets/img/invites.webp" alt="Invités du festival">
+                <p class="article__text">Retrouvez les invités du festival Flash Cinéma 25.</p>
+                <a class="article__link" href="invites.html">Invités</a>
+            </article>
+            <article class="article">
+                <h3 class="article__title">Infos Pratiques</h3>
+                <img class="article__image" src="/assets/img/carnet.webp" alt="Informations pratiques">
+                <p class="article__text">Retrouvez toutes les informations pratiques pour profiter du festival Flash
+                    Cinéma
+                    25.</p>
+                <a class="article__link" href="infos.html">Infos Pratiques</a>
+            </article>
+            <article class="article">
+                <h3 class="article__title">À propos</h3>
+                <img class="article__image" src="" alt="À propos du festival">
+                <p class="article__text">Retrouvez toutes les informations sur le festival Flash Cinéma 25.</p>
+                <a class="article__link" href="about.html">À propos</a>
+            </article>
+            <article class="article">
+                <h3 class="article__title">Contact</h3>
+                <img class="article__image" src="/assets/img/contact.webp" alt="Contactez-nous">
+                <p class="article__text">Retrouvez toutes les informations pour contacter l'équipe du festival Flash
+                    Cinéma
+                    25.</p>
+                <a class="article__link" href="contact.html">Contact</a>
+            </article>
         </section>
-        <article class="article">
-            <h2 class="article__title">Programmation</h2>
-            <img class="article__image" src="/assets/img/programmation.webp" alt="Projection en plein air">
-            <p class="article__text">Retrouvez la programmation complète du festival Flash Cinéma 25.</p>
-            <a class="article__link" href="programmation.html">Programmation</a>
-        </article>
-        <article class="article">
-            <h2 class="article__title">Invités</h2>
-            <img class="article__image" src="/assets/img/invites.webp" alt="Invités du festival">
-            <p class="article__text">Retrouvez les invités du festival Flash Cinéma 25.</p>
-            <a class="article__link" href="invites.html">Invités</a>
-        </article>
-        <article class="article">
-            <h2 class="article__title">Infos Pratiques</h2>
-            <img class="article__image" src="/assets/img/carnet.webp" alt="Informations pratiques">
-            <p class="article__text">Retrouvez toutes les informations pratiques pour profiter du festival Flash Cinéma
-                25.</p>
-            <a class="article__link" href="infos.html">Infos Pratiques</a>
-        </article>
-        <article class="article">
-            <h2 class="article__title">À propos</h2>
-            <img class="article__image" src="" alt="À propos du festival">
-            <p class="article__text">Retrouvez toutes les informations sur le festival Flash Cinéma 25.</p>
-            <a class="article__link" href="about.html">À propos</a>
-        </article>
-        <article class="article">
-            <h2 class="article__title">Contact</h2>
-            <img class="article__image" src="/assets/img/contact.webp" alt="Contactez-nous">
-            <p class="article__text">Retrouvez toutes les informations pour contacter l'équipe du festival Flash Cinéma
-                25.</p>
-            <a class="article__link" href="contact.html">Contact</a>
-        </article>
         <section class="partners">
             <h2 class="partners__title">Nos Partenaires</h2>
             <p class="partners__text">Nos partenaires, occupent un rôle essentiel et nous tenons à les remercier
                 chaleureusement pour leur soutien indéfectible et précieux qui contribue à la réussite et au rayonnement
                 de chaque manifestation.</p>
             <ul class="partners__list">
-                <li class="partners__item"><a class="partners__link" href="https://www.ornans.fr"><img
-                            class="partners__logo" src="/assets/img/ornans.webp" alt="Logo de la ville d'Ornans"></a>
+                <li class="partners__item-ornans">
+                    <img class="partners__logo" src="/assets/img/ornans.webp" alt="Logo de la ville d'Ornans"></a>
                 </li>
-                <li class="partners__item"><a class="partners__link" href="https://www.cnc.fr"><img
-                            class="partners__logo" src="/assets/img/cnc.webp" alt="Logo du CNC"></a></li>
-                <li class="partners__item"><a class="partners__link" href="https://www.bourgognefranchecomte.fr"><img
-                            class="partners__logo" src="/assets/img/logo_bfc.webp"
-                            alt="Logo de la région Bourgogne Franche-Comté"></a></li>
+                <li class="partners__item-cnc">
+                    <img class="partners__logo" src="/assets/img/cnc.webp" alt="Logo du CNC"></a>
+                </li>
+                <li class="partners__item-bfc">
+                    <img class="partners__logo" src="/assets/img/logo_bfc.webp"
+                        alt="Logo de la région Bourgogne Franche-Comté"></a>
+                </li>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <a class="footer__logo-link" href="/">
-            <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
-        </a>
-        <h3 class="footer__title">Flash Cinéma 25</h3>
-        <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+        <div class="footer__container">
+            <a class="footer__logo-link" href="/">
+                <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
+            </a>
+            <div class="footer__info">
+                <h3 class="footer__title">Flash Cinéma 25</h3>
+                <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+            </div>
+        </div>
         <h4 class="footer__menu-title">Menu</h4>
         <p class="footer__menu-text">Mentions Légales <br> Politiques de Confidentialité <br> Crédits</p>
         <h4 class="footer__contact-title">Contact</h4>

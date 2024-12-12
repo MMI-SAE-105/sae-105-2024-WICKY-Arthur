@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos - Flash Cinéma 25</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
 </head>
 
@@ -27,18 +27,20 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Présentation du festival</h2>
-            <p>Le Flash cinéma 25 est un festival audiovisuel de court métrage se déroulant chaque année en août dans le
+    <main class="main">
+        <section class="section">
+            <h2 class="section__title">Présentation du festival</h2>
+            <p class="section__text">Le Flash cinéma 25 est un festival audiovisuel de court métrage se déroulant chaque
+                année en août dans le
                 Doubs. Il met
                 en avant des talents émergents du cinéma, proposant une programmation variée de courts métrages en plein
                 air pour
                 accentuer sa convivialité.</p>
         </section>
-        <section>
-            <h2>Création du Festival</h2>
-            <p>Flash Cinéma 25 a été créé en 2020 par un groupe de passionnés d'audiovisuel et de cinéma dans le Doubs.
+        <section class="section">
+            <h2 class="section__title">Création du Festival</h2>
+            <p class="section__text">Flash Cinéma 25 a été créé en 2020 par un groupe de passionnés d'audiovisuel et de
+                cinéma dans le Doubs.
                 Inspirés par le besoin de donner une tribune aux jeunes talents et d’offrir au public une expérience
                 cinématographique
                 immersive, les fondateurs ont choisi de mettre en avant les courts métrages dans une atmosphère
@@ -47,87 +49,93 @@
                 communauté cinéphile
                 active.</p>
         </section>
-        <section>
-            <h2>Objectifs du Festival</h2>
-            <p>Le festival Flash Cinéma 25 vise à promouvoir les talents émergents en offrant une visibilité aux jeunes
+        <section class="section">
+            <h2 class="section__title">Objectifs du Festival</h2>
+            <p class="section__text">Le festival Flash Cinéma 25 vise à promouvoir les talents émergents en offrant une
+                visibilité aux jeunes
                 réalisateurs, tout en favorisant les échanges entre professionnels et spectateurs à travers ateliers,
                 débats et
                 projections. Ancré dans le Doubs, il soutient la culture locale et sensibilise aux enjeux contemporains
                 tels que
                 l’écologie, la diversité et l’innovation sociale.</p>
         </section>
-        <div>
-            <section>
-                <h2>Nos équipes techniques</h2>
-                <p>Voici les membres de nos équipes
+        <div class="team">
+            <section class="team__section">
+                <h2 class="team__title">Nos équipes techniques</h2>
+                <p class="team__text">Voici les membres de nos équipes
                     techniques qui permettent le bon fonctionnement de notre festival.</p>
-                <ul>
-                    <li><img src="assets/img/alexandre_morel.webp" alt="">
-                        <h4>Alexandre Morel</h4>
-                        <p>Directeur Artistique</p>
-                    </li>
-                    <li><img src="assets/img/sophie_durand.webp" alt="">
-                        <h4>Sophie Durand</h4>
-                        <p>Responsable communication</p>
-                    </li>
-                    <li><img src="assets/img/claire_bernard.webp" alt="">
-                        <h4>Claire Bernard</h4>
-                        <p>Responsable partenariats et financements</p>
-                    </li>
-                    <li><img src="assets/img/jules_lefevre.webp" alt="">
-                        <h4>Jules Lefèvre</h4>
-                        <p>Coordinateur logistique</p>
-                    </li>
-                    <li><img src="assets/img/thomas_gauthier.webp" alt="">
-                        <h4>Thomas Gauthier</h4>
-                        <p>Responsable technique</p>
-                    </li>
-                    <li><img src="assets/img/camille_perrin.webp" alt="">
-                        <h4>Camille Perrin</h4>
-                        <p>Responsable billeterie</p>
-                    </li>
-                    <li><img src="assets/img/elise_martineau.webp" alt="">
-                        <h4>Élise Martineau</h4>
-                        <p>Responsable développement durable</p>
-                    </li>
-                    <li><img src="assets/img/lucas_fontaine.webp" alt="">
-                        <h4>Lucas Fontaine</h4>
-                        <p>Chargé de programmation</p>
-                    </li>
+                <ul class="team__list"></ul>
+                <li class="team__item"><img class="team__img" src="assets/img/alexandre_morel.webp" alt="">
+                    <h3 class="team__name">Alexandre Morel</h3>
+                    <p class="team__role">Directeur Artistique</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/sophie_durand.webp" alt="">
+                    <h3 class="team__name">Sophie Durand</h3>
+                    <p class="team__role">Responsable communication</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/claire_bernard.webp" alt="">
+                    <h3 class="team__name">Claire Bernard</h3>
+                    <p class="team__role">Responsable partenariats et financements</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/jules_lefevre.webp" alt="">
+                    <h3 class="team__name">Jules Lefèvre</h3>
+                    <p class="team__role">Coordinateur logistique</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/thomas_gauthier.webp" alt="">
+                    <h3 class="team__name">Thomas Gauthier</h3>
+                    <p class="team__role">Responsable technique</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/camille_perrin.webp" alt="">
+                    <h3 class="team__name">Camille Perrin</h3>
+                    <p class="team__role">Responsable billeterie</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/elise_martineau.webp" alt="">
+                    <h3 class="team__name">Élise Martineau</h3>
+                    <p class="team__role">Responsable développement durable</p>
+                </li>
+                <li class="team__item"><img class="team__img" src="assets/img/lucas_fontaine.webp" alt="">
+                    <h3 class="team__name">Lucas Fontaine</h3>
+                    <p class="team__role">Chargé de programmation</p>
+                </li>
                 </ul>
             </section>
         </div>
-        <div>
-            <section>
-                <h3>Charte des valeurs et thématiques en 2025</h3>
-                <p>Valeurs principales :</p>
-                <ul>
-                    <li>
-                        <p>L’Innovation – Soutenir les créations audacieuses et originales./p>
+        <div class="values">
+            <section class="values__section">
+                <h3 class="values__title">Charte des valeurs et thématiques en 2025</h3>
+                <p class="values__subtitle">Valeurs principales :</p>
+                <ul class="values__list">
+                    <li class="values__item">
+                        <p class="values__text">L’Innovation – Soutenir les créations audacieuses et originales.</p>
                     </li>
-                    <li>
-                        <p>L’Accessibilité – Rendre le cinéma accessible à tous avec des projections gratuites.</p>
+                    <li class="values__item">
+                        <p class="values__text">L’Accessibilité – Rendre le cinéma accessible à tous avec des
+                            projections gratuites.</p>
                     </li>
-                    <li>
-                        <p>L’Écologie – Limiter l’impact environnemental grâce à des pratiques responsables (écrans
+                    <li class="values__item">
+                        <p class="values__text">L’Écologie – Limiter l’impact environnemental grâce à des pratiques
+                            responsables (écrans
                             solaires, matériaux recyclés).</p>
                     </li>
-                    <li>
-                        <p>Le Partage – Encourager le dialogue et la collaboration artistique.</p>
+                    <li class="values__item">
+                        <p class="values__text">Le Partage – Encourager le dialogue et la collaboration artistique.</p>
                     </li>
                 </ul>
-                <p>Thématiques 2025 :</p>
-                <ul>
-                    <li>
-                        <p>La ruralité au cœur du cinéma – Mettre en avant les films qui explorent les liens entre les
+                <p class="values__subtitle">Thématiques 2025 :</p>
+                <ul class="values__list">
+                    <li class="values__item">
+                        <p class="values__text">La ruralité au cœur du cinéma – Mettre en avant les films qui explorent
+                            les liens entre les
                             territoires ruraux et leurs habitants.</p>
                     </li>
-                    <li>
-                        <p>Histoires de résilience – Sélection de courts métrages racontant des récits de survie, de
+                    <li class="values__item">
+                        <p class="values__text">Histoires de résilience – Sélection de courts métrages racontant des
+                            récits de survie, de
                             transformation ou d’émancipation.</p>
                     </li>
-                    <li>
-                        <p>Nouveaux horizons technologiques – Explorer l’impact des nouvelles technologies dans la
+                    <li class="values__item">
+                        <p class="values__text">Nouveaux horizons technologiques – Explorer l’impact des nouvelles
+                            technologies dans la
                             création cinématographique.</p>
                     </li>
                 </ul>
@@ -146,15 +154,15 @@
         <h4 class="footer__contact-title">Contact</h4>
         <p class="footer__contact-text">contact@flashcinema25.com</p>
         <h4 class="footer__social-title">Nous Suivre</h4>
-        <ul class="footer__social-list"></ul>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
+        <ul class="footer__social-list">
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
         </ul>
     </footer>
 </body>

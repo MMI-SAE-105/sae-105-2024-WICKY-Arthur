@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family : var(--font-body);
+    font-size: var(--body2);
+    line-height: 1.5;
+    background-color: var(--blanc);
+    font-weight:lighter;
+}
+
+h1{
+    font-size: var(--heading-1);
+    font-weight: 700;
+    font-family: var(--font-heading);
+}
+h2{
+    font-size: var(--heading-2);
+    font-weight: 700;
+    font-family: var(--font-heading);
+}
+h3{
+    font-size: var(--heading-3);
+    font-weight: 700;
+    font-family: var(--font-heading);
+}
+
+
+button,
+input,
+select,
+textarea {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}

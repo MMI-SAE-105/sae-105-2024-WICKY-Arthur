@@ -1,0 +1,26 @@
+.partners__text{
+    font-size: var(--body-1);
+    
+}
+.partners__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:30px;
+    padding: 0;
+    list-style: none;
+}
+.partners__item-ornans{
+    margin-left: -20px;
+    width: 40%;
+}
+.partners__item-cnc{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 40%;
+}
+.partners__item-bfc{
+    width: 80%;
+    margin-top: 20px;
+}
