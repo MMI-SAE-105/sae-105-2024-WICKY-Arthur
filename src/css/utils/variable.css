@@ -13,15 +13,14 @@
         --noir: #181a19;
 
     /* Text-size styles */
-        /* base size: body-1 (18px) */
-        --heading-1: 2.25rem;
-        --heading-2: 1.375rem;
-        --heading-3: 1.25rem;
-        --body-1: 1.125rem;
-        --body-2: 0.938rem;
-        --small-text: 0.813rem;
-        --button: 1.375rem;
-        --small-text-uppercase: 0.813rem;
+        --heading-1: 2.25rem; /*36px*/
+        --heading-2: 1.375rem; /*22px*/
+        --heading-3: 1.25rem; /*20px*/
+        --body-1: 1.125rem; /*18px*/
+        --body-2: 0.938rem; /*15px*/
+        --small-text: 0.813rem; /*13px*/
+        --button: 1.375rem; /*22px*/
+        --small-text-uppercase: 0.813rem; /*13px*/
 
     /* Font-family styles */
         --font-body: "Mulish", sans-serif;

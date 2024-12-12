@@ -1,10 +1,14 @@
-.menu{
-    position: absolute;
-    left: 0;
+.header {
+    position: static;
     width: 100%;
-    padding: var(--space2x) var(--space3x);
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-    
+    background-color: var(--indigo);
+  }
+  
+  .header__logo {
+    display: block;
+  }
+  
