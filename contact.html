@@ -27,67 +27,90 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <section>
-                <h1>Contact du festival</h1>
-            </section>
+    <main class="content">
+        <section class="content__section"></section>
+        <div class="content__section-inner">
+            <h1 class="content__section-title">Contact du festival</h1>
         </div>
-        <div>
-            <section>
-                <h3>Informations :</h3>
-                <p>Siège social : <br>
-                15 Rue Saint-Laurent,
-                25290 Ornans, France.<br>
-                <br>
-                Tel : 03 81 45 67 89 <br>
-                Mail : contact@flashcinema25.com</p>
-            </section>
-            <section>
-                <h3>Nous contacter :</h3>
-                <form action="contact.php" method="post">
-                    <label for="nom">Nom/Prénom</label>
-                    <input type="text" id="nom" name="nom" required>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="objet">Objet</label>
-                    <input type="objet" id="objet" name="objet" required>
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Envoyer</button>
-            </section>
-            <section>
-                <h3>Nos réseaux sociaux :</h3>
-                <ul>
-                    <li><a href=""><img src="assets/icons/fb_color.svg" alt="">Facebook</a></li>
-                    <li><a href=""><img src="assets/icons/insta_color.svg" alt="">Instagram</a></li>
-                    <li><a href=""><img src="assets/icons/tw_color.svg" alt="">Twitter</a></li>
-                    <li><a href=""><img src="assets/icons/yt_color.svg" alt="">Youtube</a></li>
+        </section>
+        <section class="content__section">
+            <div class="content__section-inner">
+                <h3 class="content__section-subtitle">Informations :</h3>
+                <p class="content__section-text">Siège social : <br>
+                    15 Rue Saint-Laurent,
+                    25290 Ornans, France.<br>
+                    <br>
+                    Tel : 03 81 45 67 89 <br>
+                    Mail : contact@flashcinema25.com
+                </p>
+            </div>
+            <div class="content__section-inner">
+                <h3 class="content__section-subtitle">Nous contacter :</h3>
+                <form class="contact-form" action="contact.php" method="post">
+                    <label class="contact-form__label" for="nom">Nom/Prénom</label>
+                    <input class="contact-form__input" type="text" id="nom" name="nom" required>
+                    <label class="contact-form__label" for="email">E-mail</label>
+                    <input class="contact-form__input" type="email" id="email" name="email" required>
+                    <label class="contact-form__label" for="objet">Objet</label>
+                    <input class="contact-form__input" type="text" id="objet" name="objet" required>
+                    <label class="contact-form__label" for="message">Message :</label>
+                    <textarea class="contact-form__textarea" id="message" name="message" required></textarea>
+                    <button class="contact-form__button" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+        <section class="content__section">
+            <h3 class="content__section-subtitle">Nos réseaux sociaux :</h3>
+            <div>
+                <ul class="social__list">
+                    <div class="social__item-container">
+                        <li class="social__item"><a class="social__link" href=""><img class="social__icon"
+                                    src="assets/icons/fb_color.svg" alt="Facebook"></a></li>
+                        <p class="social__text">Facebook</p>
+                    </div>
+                    <div class="social__item-container">
+                        <li class="social__item"><a class="social__link" href=""><img class="social__icon"
+                                    src="assets/icons/insta_color.svg" alt="Instagram"></a></li>
+                        <p class="social__text">Instagram</p>
+                    </div>
+                    <div class="social__item-container">
+                        <li class="social__item"><a class="social__link" href=""><img class="social__icon"
+                                    src="assets/icons/tw_color.svg" alt="Twitter"></a></li>
+                        <p class="social__text">Twitter</p>
+                    </div>
+                    <div class="social__item-container">
+                        <li class="social__item"><a class="social__link" href=""><img class="social__icon"
+                                    src="assets/icons/yt_color.svg" alt="Youtube"></a></li>
+                        <p class="social__text">Youtube</p>
+                    </div>
                 </ul>
-            </section>
-        </div>
-
+            </div>
+        </section>
     </main>
     <footer class="footer">
-        <a class="footer__logo-link" href="/">
-            <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
-        </a>
-        <h3 class="footer__title">Flash Cinéma 25</h3>
-        <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+        <div class="footer__container">
+            <a class="footer__logo-link" href="/">
+                <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo Flash Cinéma 25">
+            </a>
+            <div class="footer__info">
+                <h3 class="footer__title">Flash Cinéma 25</h3>
+                <p class="footer__date">1ère édition du 8 au 10 Août 2025</p>
+            </div>
+        </div>
         <h4 class="footer__menu-title">Menu</h4>
         <p class="footer__menu-text">Mentions Légales <br> Politiques de Confidentialité <br> Crédits</p>
         <h4 class="footer__contact-title">Contact</h4>
         <p class="footer__contact-text">contact@flashcinema25.com</p>
         <h4 class="footer__social-title">Nous Suivre</h4>
-        <ul class="footer__social-list"></ul>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
-        <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
-                    src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
+        <ul class="footer__social-list">
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/facebook_footer.svg" alt="Logo Facebook"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/instagram_footer.svg" alt="Logo Instagram"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/twitter_footer.svg" alt="Logo Twitter"></a></li>
+            <li class="footer__social-item"><a class="footer__social-link" href=""><img class="footer__social-icon"
+                        src="/assets/icons/youtube_footer.svg" alt="Logo Youtube"></a></li>
         </ul>
     </footer>
 </body>

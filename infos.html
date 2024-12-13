@@ -68,24 +68,35 @@
             </li>
             </ul>
         </section>
-        <div class="section__images">
-            <figure class="section__figure">
-                <img class="section__image" src="assets/img/cinema.webp" alt="">
-                <figcaption class="section__figcaption">Cinéma d'Ornans</figcaption>
-            </figure>
-            <figure class="section__figure">
-                <img class="section__image" src="assets/img/salle.webp" alt="">
-                <figcaption class="section__figcaption">Salle Saint Vernier</figcaption>
-            </figure>
-            <figure class="section__figure">
-                <img class="section__image" src="assets/img/parc.webp" alt="">
-                <figcaption class="section__figcaption">Place Courbet</figcaption>
-            </figure>
-            <figure class="section__figure">
-                <img class="section__image" src="assets/img/hotel.webp" alt="">
-                <figcaption class="section__figcaption">Hôtel de la Vallée</figcaption>
-            </figure>
-        </div>
+        <section class="carousel">
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
+                    <img id="image-1" src="/assets/img/cinema.webp" alt="Cinéma Eldorado" />
+                    <p class="carousel__caption">Cinéma Eldorado</p>
+                </div>
+                <div class="carousel__item">
+                    <img id="image-2" src="/assets/img/salle.webp" alt="Salle Saint Vernier" />
+                    <p class="carousel__caption">Salle Saint Vernier</p>
+                </div>
+                <div class="carousel__item">
+                    <img id="image-3" src="/assets/img/parc.webp" alt="Parc Courbet à Ornans" />
+                    <p class="carousel__caption">Parc Gustave Courbet</p>
+                </div>
+                <div class="carousel__item">
+                    <img id="image-4" src="/assets/img/hotel.webp" alt="Hôtel-Restaurant d'Ornans" />
+                    <p class="carousel__caption">Hôtel de la Vallée</p>
+                </div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                    <img src="/assets/icons/icon_arrowcarrousel.svg" alt="fleche gauche" />
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                    <img src="/assets/icons/icon_arrowcarrousel.svg" alt="fleche droite" />
+                </button>
+            </div>
+            </div>
+        </section>
         <section>
             <p class="section__text">Des cartes des lieux seront disponibles à l'entrée des salles, ainsi que sur le
                 site internet
@@ -109,11 +120,14 @@
                 <img class="section__image" src="assets/img/gare.webp" alt="">
                 <figcaption class="section__figcaption">Gare d'Ornans</figcaption>
             </figure>
-            <div class="section__maps">
-                <img class="section__map" src="assets/img/map.webp" alt="">
-                <img class="section__map" src="assets/img/map.svg" alt="">
-            </div>
         </section>
+        <div class="section__maps">
+            <img class="section__map-img" src="assets/img/map.webp" alt="">
+            <a
+                href="https://www.google.com/maps/place/Ornans/@47.1000436,6.1533666,12z/data=!3m1!4b1!4m6!3m5!1s0x478d7707228f231b:0x409ce34b313d780!8m2!3d47.1067305!4d6.1408293!16s%2Fm%2F03mhbvn?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"><img
+                    class="section__map-icon" src="assets/img/map.svg" alt=""></a>
+
+        </div>
         <footer class="footer">
             <div class="footer__container">
                 <a class="footer__logo-link" href="/">

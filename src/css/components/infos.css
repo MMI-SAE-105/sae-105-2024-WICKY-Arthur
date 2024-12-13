@@ -13,26 +13,34 @@
     margin-left: 20px;
 }
 
-.section__images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
 .section__figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
-    width: 325px;
-    height: 200px;
+    margin: 10px;
 }
 
-.section__image {
-    width: 325px;
+.section__figcaption {
+    font-size: var(--body-2);
+    font-family: var(--font-body);
+    color: var(--gris-foncé);
+    padding: 10px;
 }
 
+.section__maps {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
 
+.section__map {
+    position: absolute;
+}
+
+.section__map-icon {
+    position: relative;
+    top: -65%;
+    right: -46.5%;
+}
