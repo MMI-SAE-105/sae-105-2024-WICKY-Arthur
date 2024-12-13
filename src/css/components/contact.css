@@ -1,8 +1,29 @@
-.content__section-subtitle {
-    margin-top: 2rem;
-    font-weight: 600;
-    text-decoration: underline;
+.content__subtitle-infos::after{
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    background-color: var(--noir);
+    margin-top: 0.5rem;
 }
+
+.content__subtitle-contact::after{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 3px;
+    background-color: var(--noir);
+    margin-top: 0.5rem;
+}
+.content__subtitle-rs::after {
+    content: "";
+    display: block;
+    width: 213px;
+    height: 3px;
+    background-color: var(--noir);
+    margin-top: 0.5rem;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;

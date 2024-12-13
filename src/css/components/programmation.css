@@ -17,9 +17,10 @@
     margin-top: 40px;
 }
 
-.hero__subtitle {
-    margin-top: 0;
-    margin-left: -13px;
+.hero__subtitle-programmation {
+    margin-top: 41px;
+    margin-left: 28px;
+    margin-right: 40px;
     font-weight: 550;
 }
 

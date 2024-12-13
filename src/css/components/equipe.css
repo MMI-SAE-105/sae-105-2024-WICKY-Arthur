@@ -1,7 +1,32 @@
-.team__list{
+.team__list {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin-left: -2rem;
 }
-.team__item{
+
+.team__item {
     list-style: none;
+}
+
+.team__duo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.team__name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--noir);
+    margin-top: 0;
+}
+
+.team__role {
+    font-size: 0.625rem;
+    font-weight: lighter;
+    color: var(--gris);
+    margin-top: 0;
 }
