@@ -4,30 +4,35 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family : var(--font-body);
+body {
+    font-family: var(--font-body);
     font-size: var(--body2);
     line-height: 1.5;
     background-color: var(--blanc);
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 h1,
 h2,
-h3{
+h3 {
     font-weight: 700;
     font-family: var(--font-heading);
     word-spacing: 1.1;
     margin-bottom: 0;
 }
 
-h1{
+h1 {
     font-size: var(--heading-1);
+    font-weight: bold;
+    color: var(--indigo);
+    line-height: 1.1;
 }
-h2{
+
+h2 {
     font-size: var(--heading-2);
 }
-h3{
+
+h3 {
     font-size: var(--heading-3);
 }
 
@@ -46,4 +51,4 @@ textarea {
 
 .noscroll {
     overflow: hidden;
-  }
+}

@@ -1,0 +1,38 @@
+.section--infos {
+    margin-top: 36px;
+}
+
+.section__title {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section__image-info {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.section__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.section__figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    width: 325px;
+    height: 200px;
+}
+
+.section__image {
+    width: 325px;
+}
+
+
