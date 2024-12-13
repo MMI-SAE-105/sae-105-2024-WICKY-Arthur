@@ -7,7 +7,7 @@
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    margin-right: -24px;
+    margin-right: -2px;
     gap: 16px;
     scrollbar-width: none;
 }
@@ -17,17 +17,15 @@
     justify-content: center;
     align-items: center;
     scroll-snap-align: center;
+    margin-bottom: 10px;
 }
-
-
-
 
 .carousel__controls {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 32px 0;
+    margin: 0 0 32px 0;
 }
 
 .carousel__button {

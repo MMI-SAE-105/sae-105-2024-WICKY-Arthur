@@ -11,4 +11,5 @@ figure {
 figcaption {
     font-size: var(--fs-xs);
     color: var(--gray-600);
+    text-align: center;
 }

@@ -3,6 +3,13 @@
     flex-direction: column;
     justify-content: center;
 }
+.hero__title {
+    font-size: var(--heading-1);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .hero__billetterie-btn{
     background-color: var(--orange);
     padding:20px 40px;
