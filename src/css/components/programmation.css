@@ -1,15 +1,16 @@
-.hero__title{
-    position:absolute;
+.hero__title {
+    position: absolute;
     padding: 20px;
     top: 120px;
     right: 43.5px;
 }
-.section__content-list{
+
+.section__content-list {
     padding-left: 0;
     display: flex;
 }
 
-.section__content-item{
+.section__content-item {
     height: 100%;
     width: 100%;
     padding-right: 20px;
@@ -17,10 +18,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.section__content-link{
+.section__content-link {
     color: var(--noir);
     text-transform: uppercase;
     font-size: var(--small-text-uppercase);
@@ -28,14 +29,33 @@
     font-weight: 575;
 }
 
-.section__list{
+.section__list {
     list-style: none;
     padding-left: 0;
 }
-.section__text{
+
+.section__text {
     font-size: var(--body-1);
     font-family: var(--font-body);
     color: var(--gris-foncé);
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.carousel__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel__caption-name,
+.carousel__caption-realisator {
+    font-size: var(--small-text);
+    font-family: var(--font-body);
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.carousel__caption-name {
+    text-decoration: underline;
+
 }
