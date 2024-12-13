@@ -7,6 +7,11 @@
     <title>La jetée - Flash Cinéma 25</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
 </head>
 
 <body>
@@ -28,49 +33,64 @@
         </nav>
     </header>
     <main class="main">
-        <section>
-            <h2 class="main__title">La jetée</h2>
-            <p>1962 <br> Chris Marker</p>
+        <section class="main__section-film">
+            <div class="main__section-img">
+                <img src="assets/img/la_jetee.webp" alt="" data-full-img="/assets/img/la_jetee.webp" />
+            </div>
+            <div class="main__section-text">
+                <h2 class="main__title">La jetée</h2>
+                <p class="main__info">1962 <br> Chris Marker</p>
+            </div>
+            <dialog id="lightbox"><img src="/assets/img/la_jetee.webp" alt="" />
+            </dialog>
         </section>
-        <hr>
-        <section>
-            <p>Court-métrage de Chris Marker - 28min - 16 février 1962 (France) <br> <strong>Genres</strong> : Drame,
-                Romance,
-                Science-fiction, Expérimental
+        <hr class="main__divider">
+        <section class="main__section">
+            <p class="main__subtitle-info">Court-métrage de Chris Marker - 28min - 16 février 1962 (France) </p>
+            <p><strong>Genres</strong> : Drame, Romance, Science-fiction, Expérimental
                 <br> <strong>Pays d'origine</strong> : France <br> <strong>Synopsis</strong> : Après une catastrophe
-                nucléaire, les
-                humains sont prisonniers dans les souterrains. Un héros avec une mémoire puissante
-                est chargé de sauver le monde.
+                nucléaire, les humains sont prisonniers dans les souterrains. Un héros avec une mémoire puissante est
+                chargé de sauver le monde.
             </p>
         </section>
 
-        <hr>
-        <section>
-            <h3>Bande-Annonce</h3>
-            <video controls width="250">
+        <hr class="main__divider">
+        <section class="main__section">
+            <h3 class="main__subtitle-ba">Bande-Annonce</h3>
+            <video class="main__video" controls width="250">
                 <source src="/assets/video/trailer_lajetee.mp4" type="video/mp4">
             </video>
         </section>
-        <hr>
-        <section>
-            <h3>Le réalisateur</h3>
-            <p>29 juil. 1921 | 29 juil. 2012 <br>Français <br>Réalisateur, écrivain, illustrateur... </p>
+        <hr class="main__divider">
+        <section class="main__section">
+            <h3 class="main__subtitle-real">Le réalisateur</h3>
+            <p class="main__info">29 juil. 1921 | 29 juil. 2012 <br>Français <br>Réalisateur, écrivain, illustrateur...
+            </p>
         </section>
-        <hr>
-        <section>
-            <h4>Biographie :</h4>
-            <p>Christian Bouche-Villeneuve, dit Crhis Marker (parfois écrit Chris. Marker), est un réalisateur,
+        <hr class="main__divider">
+        <section class="main__section">
+            <h3 class="main__subtitle-bio">Biographie :</h3>
+            <p class="main__bio">Christian Bouche-Villeneuve, dit Crhis Marker (parfois écrit Chris. Marker), est un
+                réalisateur,
                 écrivain, illustrateur...</p>
         </section>
-        <section>
-            <h3>Autre travaux :</h3>
-            <ul>
-                <li><img src="assets/img/loin_du_vietnam.webp" alt=""><a href="">Loin du loin_du_vietnam</a></img></li>
-                <li><img src="assets/img/les_statues_meurent_aussi.webp" alt=""><a href="">Les statues meurent
-                        aussi</a></img></li>
-                <li><img src="assets/img/le_joli_mai.webp" alt=""><a href="">Le joli mai</a></img></li>
-            </ul>
-        </section>
+        <section class="carousel">
+            <h3 class="carousel__content-title">Autres travaux :</h3>
+            <div class="carousel__container">
+                <div class="carousel__item">
+                    <img id="image-1" src="/assets/img/loin_du_vietnam.webp" alt="Affiche Loin du vietnam" />
+                    <p class="carousel__caption-name">Loin du vietnam</p>
+                </div>
+                <div class="carousel__item">
+                    <img id="image-2" src="/assets/img/les_statues_meurent_aussi.webp"
+                        alt="Affiche Les statues meurent aussi" />
+                    <p class="carousel__caption-name">Les statues meurent aussi</p>
+                </div>
+                <div class="carousel__item">
+                    <img id="image-3" src="/assets/img/le_joli_mai.webp" alt="Affiche Vincent" />
+                    <p class="carousel__caption-name">Le joli mai</p>
+                </div>
+            </div>
     </main>
     <footer class="footer">
         <a class="footer__logo-link" href="/">
