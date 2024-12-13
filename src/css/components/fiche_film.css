@@ -6,6 +6,11 @@
     width: 50%;
     margin-top: 40px;
 }
+
+.main__section-list{
+    list-style: none;
+    padding: 0;
+}
 .main__section-text{
     margin-top: 40px;
 }

@@ -7,6 +7,7 @@
     <title>La jetée - Flash Cinéma 25</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/carousel.js"></script>
     <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
@@ -35,15 +36,20 @@
     <main class="main">
         <section class="main__section-film">
             <div class="main__section-img">
-                <img src="assets/img/la_jetee.webp" alt="" data-full-img="/assets/img/la_jetee.webp" />
+                <ul class="main__section-list">
+                    <li><img src="/assets/img/thumbnails/la_jetee.webp" alt="affiche"
+                            data-full-img="/assets/img/la_jetee.webp" />
+                    </li>
+                </ul>
+                <dialog id="lightbox"><img src="/assets/img/la_jetee.webp" alt="" /></dialog>
             </div>
             <div class="main__section-text">
                 <h2 class="main__title">La jetée</h2>
                 <p class="main__info">1962 <br> Chris Marker</p>
             </div>
-            <dialog id="lightbox"><img src="/assets/img/la_jetee.webp" alt="" />
-            </dialog>
+
         </section>
+
         <hr class="main__divider">
         <section class="main__section">
             <p class="main__subtitle-info">Court-métrage de Chris Marker - 28min - 16 février 1962 (France) </p>

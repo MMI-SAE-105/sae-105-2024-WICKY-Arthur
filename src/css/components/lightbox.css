@@ -1,3 +1,7 @@
+/**
+* Lightbox
+*/
+
 #lightbox {
     position: fixed;
     padding: 30px;
@@ -5,6 +9,7 @@
     border: 10px solid #ccc;
     border-radius: 20px;
     overflow: visible;
+    transform: scale(0.75);
 }
 
 #lightbox::before {
@@ -26,4 +31,40 @@
 ::backdrop {
     background-color: #eef;
     opacity: 0.8;
+}
+
+/*animation qui fait apparaitre le lightbox*/
+
+#lightbox[open] {
+    animation-name: entrer;
+    animation-duration: 3s;
+}
+
+#lightbox.sortie {
+    animation-name: sortir;
+    animation-duration: 3s;
+}
+
+::backdrop[open] {
+    animation-name: entrer;
+    animation-duration: 3s;
+}
+
+::backdrop.sortie {
+    animation-name: sortir;
+    animation-duration: 3s;
+}
+
+@keyframes entrer {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+@keyframes sortir {
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
 }
